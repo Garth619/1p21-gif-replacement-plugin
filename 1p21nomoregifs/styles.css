@@ -1,0 +1,41 @@
+
+#gif_replace_left {
+	float:left;
+	margin-right:30px;
+}
+
+#gif_replace_center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gif_replace_right {
+	float:right;
+	margin-left:30px;
+}
+
+#gif_replace_noalignment, #gif_replace_left, #gif_replace_center, #gif_replace_right {
+	margin-bottom:10px;
+	max-width:100%;
+	height:auto;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+	
+	
+#gif_replace_left, #gif_replace_center, #gif_replace_right {
+	margin-bottom:10px;
+	max-width:100%;
+	height:auto;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+	
+	
+	
+} /* Media Query */
